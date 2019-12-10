@@ -36,5 +36,9 @@ export default new Router({
       name: 'project',
       component: () => import(/* webpackChunkName: "project" */ './views/Project.vue'),
     },
+    {
+      path: '*',
+      redirect: '/',
+    },
   ],
 });
