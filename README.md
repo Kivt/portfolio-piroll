@@ -1,5 +1,7 @@
 # vue-piroll
 
+Portfolio project. Convert existing HTML + CSS + Bootstrap website to Vue.js SPA.
+
 ## Project setup
 ```
 npm install
